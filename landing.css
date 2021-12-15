@@ -1,0 +1,49 @@
+
+.background{
+	width: 100%;
+	height: 100%;
+	/*font-family: 'Zen Kaku Gothic New', sans-serif;*/
+	background: url(bcimage.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover; 
+
+}
+
+h1{
+	font-size: 3rem;
+	color: darkgray;
+}
+
+hr{
+	border-color: green;
+	border-width: 3px;
+	max-width: 55px;
+}
+.buffer {
+	height: 15rem;
+}
+/*hr:after{
+	border-color: red;
+	border-width: 4px;
+}*/
+
+.btn{
+	padding: 2rem 3rem;
+	font-weight: 777;
+	border-radius: 310px;
+	text-transform: uppercase;
+
+}
+.btn-primary{
+	background-color:#B3ECB0;
+	border-color: #B3ECB0;
+	/*transition: 1s;*/
+
+}
+.btn-primary:hover {
+	background-color: darkgray;
+	border-color: darkgray;
+	border-width: 10px;
+}
